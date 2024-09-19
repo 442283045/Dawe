@@ -70,7 +70,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider localization={zhCN}>
+    <ClerkProvider afterSignInUrl="/" afterSignUpUrl="/" localization={zhCN}>
       <html
         lang="zh-CN"
         className={`${sansFont.variable} m-0 h-full p-0 font-sans antialiased`}
